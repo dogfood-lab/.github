@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="./logo.png" alt="dogfood-lab" width="280">
+
 # dogfood-lab
 
 **Methods, operating systems, and showcases for testing in the AI era**
