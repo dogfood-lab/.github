@@ -1,6 +1,6 @@
 <div align="center">
 
-# Dogfood Lab
+# dogfood-lab
 
 **Methods, operating systems, and showcases for testing in the AI era**
 
