@@ -1,6 +1,5 @@
 <div align="center">
 
-<img src="./logo.png" alt="dogfood-lab" width="280">
 
 # dogfood-lab
 
