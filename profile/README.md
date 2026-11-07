@@ -47,8 +47,7 @@ Everything here is used first on the [MCP Tool Shop](https://github.com/mcp-tool
 
 ## Community
 
-Questions or ideas? **[Open a Discussion](https://github.com/orgs/dogfood-lab/discussions)**.
-Bugs go in the issues of the relevant repository.
+Questions, ideas and bugs go in the issues of the relevant repository.
 
 ---
 
