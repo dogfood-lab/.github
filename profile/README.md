@@ -1,63 +1,59 @@
 <div align="center">
 
+<img src="logo.png" alt="Dogfood Lab" width="160">
 
 # dogfood-lab
 
-**Methods, operating systems, and showcases for testing in the AI era**
+**Methods and tools for testing AI-assisted software, used on our own work first.**
 
 </div>
 
 ---
 
-## What We Build
+## What we build
 
-As AI becomes more prevalent in software, testing becomes more important — not less. Dogfood Lab is an open workshop for the testing problem: new methodologies, operating systems for running tests, and public showcases of results.
+As more software is written with AI help, checking it matters more, not less. Dogfood Lab builds the testing side of that work: the maps, gates and methods that tell you what a change reaches and whether a claim holds.
 
-Sister org to [MCP Tool Shop](https://github.com/mcp-tool-shop-org). Where MCP Tool Shop builds local-first AI tooling, Dogfood Lab stress-tests how AI-assisted software should be verified.
-
----
-
-## Focus Areas
-
-Intentionally open-ended. Early directions:
-
-- **Test operating systems** — frameworks that coordinate test runs across agents, tools, and humans.
-- **New methods of testing** — property-based proofs for LLM pipelines, visual regression for diffusion outputs, dogfood-driven quality gates, adversarial audits.
-- **Showcases** — public writeups of what worked, what broke, what got shipped.
-
-If an idea needs a home and it's testing-shaped, it lives here.
+Everything here is used first on the [MCP Tool Shop](https://github.com/mcp-tool-shop-org) repositories, our sister organization, before anyone else is asked to try it.
 
 ---
 
-## Three Lanes
+## Projects
 
-- **Shipped** — testing tools and operating systems with CI, tests, releases, and install commands.
-- **Active Lab** — in-progress experiments with daily commits.
-- **Seed Vault** — archived prototypes and revival candidates.
+| Project | What it is | Install |
+|:---|:---|:---|
+| [testing-os](https://github.com/dogfood-lab/testing-os), home of **Atlas** | A map of each repository: its parts, the workflows that start work, and what a change reaches. Every MCP Tool Shop repository with workflows keeps an Atlas map, and CI checks it on every push. testing-os also takes a repository through health, feature and release passes with a coordinated team of agents. [Handbook](https://dogfood-lab.github.io/testing-os/) | `npx @dogfood-lab/atlas` |
+| [study-swarm](https://github.com/dogfood-lab/study-swarm) | A method for grounding a design decision in cited research before it is built, with every citation checked before it becomes canon. [Handbook](https://dogfood-lab.github.io/study-swarm/) | `npx @dogfood-lab/study-swarm` |
+| [interface-audits](https://github.com/dogfood-lab/interface-audits) | Proof-backed audits of human-facing product surfaces. [Handbook](https://dogfood-lab.github.io/interface-audits/) | |
 
 ---
 
-## Principles
+## How we work
 
 | | |
 |---|---|
-| **Dogfood-first** | Every tool gets tested against itself before release. |
-| **Evidence over estimates** | Showcase artifacts, not self-reports. |
-| **Local-first** | Runs on your hardware. No cloud required. |
-| **Open-ended** | Testing is a big word. Scope won't be narrowed prematurely. |
+| **Our own work first** | A tool is used on our repositories before it is released to anyone else. |
+| **Evidence, not self-reports** | A result comes with the run that produced it, committed beside it. |
+| **Checked in CI** | A method that matters runs on every push, not only when someone remembers. |
+| **Local first** | It runs on your hardware, with no cloud service required. |
+
+## Lanes
+
+- **Shipped**: testing tools with CI, tests, releases and an install command.
+- **Active lab**: experiments in progress.
+- **Seed vault**: archived prototypes kept as revival candidates.
 
 ---
 
 ## Community
 
-Questions or ideas? **[Open a Discussion](https://github.com/orgs/dogfood-lab/discussions)**
-Bugs go in [Issues](https://github.com/orgs/dogfood-lab/repositories) on the relevant repo.
+Questions, ideas and bugs go in the issues of the relevant repository.
 
 ---
 
 <div align="center">
 
-**[All Repositories](https://github.com/orgs/dogfood-lab/repositories)**
+**[All repositories](https://github.com/orgs/dogfood-lab/repositories)**
 
 *Eat first. Ship second.*
 
